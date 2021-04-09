@@ -1,0 +1,147 @@
+/* --- CSS Reset --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+/* --- Base style's --- */
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  background-image: url(pic/simple-background-blue-simple-pattern-gradient-circle-73541-wallhere.com.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Rubik, 'Times New Roman', serif;
+  color:rgb(107, 134, 161);
+}
+
+img {
+  width: 100%;
+  height: 66%;
+}
+
+p, h3 {
+  font-family: 'Karla', Arial, sans-serif;
+}
+
+h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+h1{
+  font-size: 2.7rem;
+  text-transform: uppercase;
+  margin: 10px auto;
+  text-align: center;
+}
+
+span {
+  font-size: .8rem;
+}
+
+p {
+  text-align: center;
+  width: 60%;
+  margin: 38px auto;
+  font-size: 1.4rem;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a {
+  color:rgba(0, 0, 0, 0.5);
+  font-size: larger;
+}
+
+i {
+  transition: all 0.5s ease-in-out;
+}
+
+
+/* --- hover style's --- */
+
+a:hover {
+  color: azure;
+}
+
+i:hover {
+  transform: scale(1.2);
+}
+
+img:hover {
+  filter: grayscale(50%);
+}
+
+/* --- Class style's --- */
+
+.profile-card {
+  width: 400px;
+  height: 720px;
+  background-color: rgba(255, 255, 255, 0.15);
+  position: relative;
+  border-radius: 8px;
+}
+
+.profile-img {
+  width: 80%;
+  height: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0px;
+  right: 40px;
+}
+
+.bio {
+  width: 120%;
+  height: 50%;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 130px;
+  right: -40px;
+  z-index: 1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact {
+  width: 60%;
+  height: 16%;
+  border: 1px solid rgba(0, 0, 0, 0.301);
+  position: absolute;
+  bottom: 50px;
+  right: 80px;
+  box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(131, 178, 240, 0.3);
+}
+
+#contact-me {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
